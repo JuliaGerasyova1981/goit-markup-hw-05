@@ -4,121 +4,196 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+
+           <!--Google Fonts Links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+        <!--Modern Normalize Link-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+            integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+            <!--Own styles Link-->
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-    <a href="./index.html">WebStudio</a>
+    <header class="page-header">
+        <nav class="page-nav">
+    <a class="logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
             
-            <ul>
-                <li>
-                    <a href="./index.html">Studio</a>
-                </li>
-                <li>
-                    <a href="./index.html">Portfolio</a>
-                </li>
-                <li>
-                    <a href="./index.html">Contacts</a>
-                </li>
+            <ul class="menu">
+                <li class="menu-item"><a class="menu-link" href="./index.html">Studio</a></li>
+                <li class="menu-item"><a class="menu-link" href="./index.html">Portfolio</a></li>
+                <li class="menu-item"><a class="menu-link" href="./index.html">Contacts</a></li>
             </ul>
-
         </nav>
 
-        <address>
+        <address class="address">
 
             <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                <li><a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
-        </address>
-
-        
+        </address>  
     </header>
+
+          <!--Main content Hero-->
     <main>
-        <section>
-            <h1>Effective Solutions for Your Business</h1>
-            <button type="button">Order Service</button>
+            <section class="box-model">
+            <h1 class="header-h1">Effective Solutions for Your Business</h1>
+            <button class="button" type="button">Order Service</button>
         </section>
 
+          <!--Main content Section 1-->
         <section>
-            <h2>Our benefits</h2>
+            <h2 >Our benefits</h2>
             <ul>
             <li>
-                <h3>Strategy</h3>
-                <p>Our goal is to identify the business
+                <h3 class="h3-strategy">Strategy</h3>
+                <p class="our-goal">Our goal is to identify the business
                 problem to walk away with the perfect and creative solution.</p>
             </li>
             <li>
-            <h3>Punctuality</h3>
-            <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+            <h3 class="h3-punctuality">Punctuality</h3>
+            <p class="key-message">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
             </li>
             <li>
-                <h3>Diligence</h3>
-                <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+                <h3 class="h3-diligence">Diligence</h3>
+                <p class="confirm-brands">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
             </li>
             <li>
-                <h3>Technologies</h3>
-                <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                <h3 class="h3-technologies">Technologies</h3>
+                <p class="design-practice">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
             </li>
         </ul>
         </section>
-
+           <!--Main content Section 2-->
         <section>
-            <h2>Our Team</h2>
+            <h2 class="h2-our-team">Our Team</h2>
             <ul>
                 <li>
                     <img
                      src="./images/our-teams/mark-guerrero.jpg"
-                     alt="Mark Guerrero avatar"
+                     alt="mark-guerrero-avatar"
                      width="264"
                      height="260"
                     />
-                    <h3>Mark Guerrero</h3>
-                    <p>Product Designer</p>
+                    <h3 class="h3-mark-guerrero">Mark Guerrero</h3>
+                    <p class="p1-product-designer">Product Designer</p>
                 </li>
 
                 <li>
                     <img
                      src="./images/our-teams/tom-ford.jpg"
-                     alt="Tom Ford avatar"
+                     alt="tom-ford-avatar"
                     width="264"
                     height="260"
                 />
-                    <h3>Tom Ford</h3>
-                    <p>Frontend Developer</p>
+                    <h3 class="h3-tom-ford">Tom Ford</h3>
+                    <p class="p2-frontend-developer">Frontend Developer</p>
                 </li>
 
                 <li>
                     <img 
                     src="./images/our-teams/camila-garcia.jpg"
-                     alt="Camila Garcia avatar"
+                     alt="camila-garcia-avatar"
                     width="264"
                     height="260"
                     />
-                    <h3>Camila Garcia</h3>
-                    <p>Marketing</p>
+                    <h3 class="h3-camila-garcia">Camila Garcia</h3>
+                    <p class="p3-marketing">Marketing</p>
                 </li>
                 <li>
                     <img 
                     src="./images/our-teams/daniel-wilson.jpg"
-                     alt="Daniel Wilson avatar"
+                     alt="daniel-wilson-avatar"
                     width="264"
                     height="260"
                     />
-                    <h3>Daniel Wilson</h3>
-                    <p>UI Designer</p>
+                    <h3 class="h3-daniel-wilson">Daniel Wilson</h3>
+                    <p class="p4-ui-designer">UI Designer</p>
                 </li>
             </ul>
         </section>
+            <!--Main content Section 3-->
+
+    <section>
+    <h2 class="h2-our-portfolio">Our Portfolio</h2>
+    <ul>
+    <li>
+        <img src="./images/our-portfolio/banking-up.jpg"
+        alt="banking-up-avatar"
+        width: 360px;
+        height: 300px;
+        />
+        <h3 class="h3-banking-app">Banking App</h3>
+        <p class="p1-app">App</p>
+    </li>
+    <li>
+        <img src="./images/our-portfolio/cashless-payment.jpg"
+        alt="cashless-payment-avatar"
+        width: 360px;
+        height: 300px;
+        />
+        <h3 class="h3-cashless-payment">Cashless Payment</h3>
+        <p class="p2-marketing">Marketing</p>
+    </li>
+    <li>
+        <img src="./images/our-portfolio/maditation-up.jpg"
+        alt="maditation-up-avatar"
+        width: 360px;
+        height: 300px;
+        />
+        <h3 class="h3-meditation-app">Meditation App</h3>
+        <p class="p3-app">App</p>
+    </li>
+    <li>
+        <img src="./images/our-portfolio/taxi-servis.jpg"
+        alt="taxi-servis-avatar"
+        width: 360px;
+        height: 300px;
+        />
+        <h3 class="h3-taxi-service">Taxi Service</h3>
+        <p class="p4-marketing">Marketing</p>
+    </li>
+    <li>
+        <img src="./images/our-portfolio/screen-illustrations.jpg"
+        alt="screen-illustrations-avatar"
+        width: 360px;
+        height: 300px;
+        />
+        <h3 class="h3-screen-illustrations">Screen Illustrations</h3>
+        <p class="p5-design">Design</p>
+    </li>
+    <li>
+        <img src="./images/our-portfolio/online-courses.jpg"
+        alt="online-courses-avatar"
+        width: 360px;
+        height: 300px;
+        />
+        <h3 class="h3-online-courses">Online Courses</h3>
+        <p class="p6-marketing">Marketing</p>
+    </li>
+    </ul>
+
+    </section>
+
     </main>
-   
+                     <!--Footer-->
     <footer>
        
-                <a href="./index.html">WebStudio</a>
+                <section class="box-model-2">
+                    <a class="logo-footer" href="./index.html">Web<span class="logo-footer-part">Studio</span></a>
+<p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+                </section>
+               
         
-                
+            
            
-        <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+        
     </footer>
 </body>
 </html>
