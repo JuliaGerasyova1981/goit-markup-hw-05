@@ -179,22 +179,11 @@ background: #2e2f42;
 /*==========/Main content Section 3====*/
 
 /*==========Footer====*/
-.logo-footer {
-        font-weight: 700;
-        font-size: 18px;
-        letter-spacing: 0.03em;
-        color: #4d5ae5;
-}
+
 .box-model-2 {
 background: #2e2f42;
 }
 
-.logo-footer {
-    font-weight: 700;
-    font-size: 18px;
-    letter-spacing: 0.03em;
-    color: #4d5ae5;
-}
 .logo-footer-part {
     font-weight: 700;
     font-size: 18px;
@@ -212,4 +201,7 @@ font-family: var(--font-family);
 }
 .lii {
     background-color: #FFFFFF;
+}
+.footer {
+    background-color: #2e2f42;
 }
