@@ -11,9 +11,7 @@ a {
 ul, ol {
   list-style: none;  
 }
-.img {
-    display: block;
-}
+
 /*==========/Common Styles=======*/
 
 /*==========Page Header styles=======*/
@@ -21,7 +19,6 @@ ul, ol {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -35,7 +32,6 @@ ul, ol {
     
         font-weight: 500;
         font-size: 16px;
-        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
@@ -51,7 +47,6 @@ ul, ol {
 .address-link {
     
         font-size: 16px;
-        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
@@ -63,15 +58,12 @@ ul, ol {
 
 /*==========Hero section styles=======*/
 .box-model {
-width: 1440px;
-height: 600px;
 background: #2e2f42;
 }
  .header-h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -80,11 +72,9 @@ background: #2e2f42;
         
         font-weight: 500;
         font-size: 16px;
-        line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
         display: block;
-        margin: auto;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background: #4d5ae5;
         cursor: pointer;
@@ -97,56 +87,48 @@ background: #2e2f42;
  .h3-strategy {
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
  }
  .our-goal {
         font-weight: 400;
         font-size: 16px;
-        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
  }
 .h3-punctuality {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 .key-message {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 .h3-diligence {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 .confirm-brands {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 .h3-technologies {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 .design-practice {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
      color: #434455;
 }
@@ -156,14 +138,12 @@ background: #2e2f42;
 .h2-our-team {
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
 .h3-mark-guerrero {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -171,44 +151,37 @@ background: #2e2f42;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     
 }
 .h3-tom-ford {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .p2-frontend-developer {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;   
 }
 .h3-camila-garcia {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;     
 }
 .p3-marketing {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .h3-daniel-wilson {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .p4-ui-designer {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 /*==========/Main content Section 2====*/
@@ -217,79 +190,66 @@ background: #2e2f42;
 .h2-our-portfolio {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
     letter-spacing: 0.02em;  
 }
 .h3-banking-app {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .p1-app {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .h3-cashless-payment {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .p2-marketing {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .h3-meditation-app {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .p3-app {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .h3-taxi-service {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .p4-marketing {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .h3-screen-illustrations {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;     
 }
 .p5-design {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .h3-online-courses {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .p6-marketing {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 /*==========/Main content Section 3====*/
@@ -298,34 +258,28 @@ background: #2e2f42;
 .logo-footer {
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.17;
         letter-spacing: 0.03em;
         color: #4d5ae5;
 }
 .box-model-2 {
 background: #2e2f42;
-width: 1440px;
-height: 312px;
 }
 
 .logo-footer {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
 }
 .logo-footer-part {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
     letter-spacing: 0.03em;
     color: #fff;}
 .footer-text {
 font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
 }
