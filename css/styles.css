@@ -18,6 +18,7 @@ ul, ol {
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
+    line-height: 1.17;
     font-size: 18px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -25,13 +26,15 @@ ul, ol {
 }
 
 .logo-part {
-    color: #2e2f42
+    color: #2e2f42;
+    line-height: 1.17;
 }
 
 .menu-link {
     
         font-weight: 500;
         font-size: 16px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
@@ -48,6 +51,7 @@ ul, ol {
     
         font-size: 16px;
         letter-spacing: 0.02em;
+        line-height: 1.5;
         color: #434455;
 }
 .address-link:hover,
@@ -60,13 +64,14 @@ ul, ol {
 .box-model {
 background: #2e2f42;
 }
- .header-h1 {
+ .headerh1 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    line-height: 1.07;
 }
  .button {
         
@@ -76,37 +81,33 @@ background: #2e2f42;
         color: #fff;
         background: #4d5ae5;
         cursor: pointer;
+        line-height: 1.5;
+ }
+ .button:hover,
+ .button:focus{
+    background-color: #404BBF;
  }
  /*==========/Hero section styles=======*/
 
  /*==========Main content Section 1====*/
  
  
- .h3-strategy {
+ .h3strategy {
         font-weight: 500;
         font-size: 20px;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        line-height: 1.2;
  }
  .our-goal {
         font-weight: 400;
         font-size: 16px;
         letter-spacing: 0.02em;
         color: #434455;
+        line-height: 1.5;
  }
-.h3-punctuality {
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-.key-message {
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.h3-diligence {
+
+.h3diligence {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -118,7 +119,7 @@ background: #2e2f42;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.h3-technologies {
+.h3technologies {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -133,13 +134,13 @@ background: #2e2f42;
  /*==========/Main content Section 1====*/
 
  /*==========Main content Section 2====*/
-.h2-our-team {
+.h2ourteam {
         font-weight: 700;
         font-size: 36px;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.h3-mark-guerrero {
+.h3markguerrero {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -152,7 +153,7 @@ background: #2e2f42;
     letter-spacing: 0.02em;
     
 }
-.h3-tom-ford {
+.h3tomford {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -162,7 +163,7 @@ background: #2e2f42;
     font-size: 16px;
     letter-spacing: 0.02em;   
 }
-.h3-camila-garcia {
+.h3camilagarcia {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;     
@@ -172,7 +173,7 @@ background: #2e2f42;
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-.h3-daniel-wilson {
+.h3danielwilson {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -185,12 +186,12 @@ background: #2e2f42;
 /*==========/Main content Section 2====*/
 
 /*==========Main content Section 3====*/
-.h2-our-portfolio {
+.h2ourportfolio {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.02em;  
 }
-.h3-banking-app {
+.h3bankingapp {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -200,7 +201,7 @@ background: #2e2f42;
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-.h3-cashless-payment {
+.h3cashlesspayment {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -210,7 +211,7 @@ background: #2e2f42;
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-.h3-meditation-app {
+.h3meditationapp {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -220,7 +221,7 @@ background: #2e2f42;
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-.h3-taxi-service {
+.h3taxiservice {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -230,7 +231,7 @@ background: #2e2f42;
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-.h3-screen-illustrations {
+.h3screenillustrations {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;     
@@ -240,7 +241,7 @@ background: #2e2f42;
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-.h3-online-courses {
+.h3onlinecourses {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
