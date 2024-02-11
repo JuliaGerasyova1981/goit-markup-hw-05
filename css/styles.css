@@ -119,12 +119,7 @@ background: #2e2f42;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.h3technologies {
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
+
 .design-practice {
     font-weight: 400;
     font-size: 16px;
@@ -139,6 +134,9 @@ background: #2e2f42;
         font-size: 36px;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        line-height: 1.11;
+        text-align: center;
+        text-transform: capitalize;
 }
 .markguerrero {
     font-weight: 500;
@@ -146,43 +144,14 @@ background: #2e2f42;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.p1-product-designer {
+.product-designer {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
     
 }
-.tomford {
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 0.02em;
-}
-.p2-frontend-developer {
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0.02em;   
-}
-.camilagarcia {
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 0.02em;     
-}
-.p3-marketing {
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-}
-.danielwilson {
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 0.02em;
-}
-.p4-ui-designer {
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-}
+
 /*==========/Main content Section 2====*/
 
 /*==========Main content Section 3====*/
@@ -196,10 +165,12 @@ background: #2e2f42;
     font-size: 20px;
     letter-spacing: 0.02em;
 }
-.p1-app {
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0.02em;
+.app{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--slate);
 }
 
 /*==========/Main content Section 3====*/
@@ -232,4 +203,7 @@ font-family: var(--font-family);
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #fff;
+}
+.section {
+    background-color: #F4F4FD;
 }
