@@ -64,7 +64,7 @@ ul, ol {
 .box-model {
 background: #2e2f42;
 }
- .headerh1 {
+ .header {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
@@ -92,7 +92,7 @@ background: #2e2f42;
  /*==========Main content Section 1====*/
  
  
- .h3strategy {
+ .strategy {
         font-weight: 500;
         font-size: 20px;
         letter-spacing: 0.02em;
