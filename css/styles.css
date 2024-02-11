@@ -143,13 +143,14 @@ background: #2e2f42;
     font-size: 20px;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    line-height: 1.2;
 }
 .product-designer {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
-    
+    line-height: 1.5;
 }
 
 /*==========/Main content Section 2====*/
@@ -164,6 +165,8 @@ background: #2e2f42;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
+    line-height: 1.2;
+    color: #2e2f42;
 }
 .app{
         font-weight: 400;
