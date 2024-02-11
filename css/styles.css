@@ -134,13 +134,13 @@ background: #2e2f42;
  /*==========/Main content Section 1====*/
 
  /*==========Main content Section 2====*/
-.h2ourteam {
+.ourteam {
         font-weight: 700;
         font-size: 36px;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.h3markguerrero {
+.markguerrero {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -153,7 +153,7 @@ background: #2e2f42;
     letter-spacing: 0.02em;
     
 }
-.h3tomford {
+.tomford {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -163,7 +163,7 @@ background: #2e2f42;
     font-size: 16px;
     letter-spacing: 0.02em;   
 }
-.h3camilagarcia {
+.camilagarcia {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;     
@@ -173,7 +173,7 @@ background: #2e2f42;
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-.h3danielwilson {
+.danielwilson {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -186,12 +186,12 @@ background: #2e2f42;
 /*==========/Main content Section 2====*/
 
 /*==========Main content Section 3====*/
-.h2ourportfolio {
+.ourportfolio {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.02em;  
 }
-.h3bankingapp {
+.bankingapp {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -201,7 +201,7 @@ background: #2e2f42;
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-.h3cashlesspayment {
+.cashlesspayment {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -211,7 +211,7 @@ background: #2e2f42;
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-.h3meditationapp {
+.meditationapp {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -221,7 +221,7 @@ background: #2e2f42;
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-.h3taxiservice {
+.taxiservice {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -231,7 +231,7 @@ background: #2e2f42;
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-.h3screenillustrations {
+.screenillustrations {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;     
@@ -241,7 +241,7 @@ background: #2e2f42;
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-.h3onlinecourses {
+.onlinecourses {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
