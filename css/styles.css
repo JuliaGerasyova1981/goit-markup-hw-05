@@ -65,7 +65,6 @@ ul, ol {
 background: #2e2f42;
 }
  .header {
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
     letter-spacing: 0.02em;
@@ -100,19 +99,13 @@ background: #2e2f42;
         line-height: 1.2;
  }
  .our-goal {
-        font-weight: 400;
+        
         font-size: 16px;
         letter-spacing: 0.02em;
         color: #434455;
         line-height: 1.5;
  }
 
-.h3diligence {
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
 .confirm-brands {
     font-weight: 400;
     font-size: 16px;
@@ -146,8 +139,6 @@ background: #2e2f42;
     line-height: 1.2;
 }
 .product-designer {
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
@@ -169,11 +160,10 @@ background: #2e2f42;
     color: #2e2f42;
 }
 .app{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--slate);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+        
 }
 
 /*==========/Main content Section 3====*/
@@ -185,9 +175,8 @@ background: #2e2f42;
     font-size: 18px;
     letter-spacing: 0.03em;
     color: #f4f4fd;}
+    
 .footer-text {
-font-family: var(--font-family);
-    font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #F4F4FD;
