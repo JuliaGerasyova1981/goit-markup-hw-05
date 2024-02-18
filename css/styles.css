@@ -56,14 +56,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    gap: 40px;
 }
 
 .menu {
     display: flex;
     padding-right: 332px;
     column-gap: 40px;
-    
+    margin-right: 40px;
 }
 
 .address {
@@ -361,5 +361,7 @@ padding-bottom: 120px;
     letter-spacing: 0.32px;
     max-width: 264px;
 }
-
+.section-two {
+    padding: 120px 0;
+}
 
