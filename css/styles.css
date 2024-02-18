@@ -306,9 +306,7 @@ padding-bottom: 120px;
         background: #fff;
         width: 360px;
         height: 420px;
-padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
+
 }
 .bankingapp {
     font-weight: 500;
@@ -374,7 +372,7 @@ padding: 32px 16px;
 .menu-item {
 gap: 40px;
 }
-. {
+.div {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
