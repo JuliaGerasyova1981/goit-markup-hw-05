@@ -46,7 +46,6 @@ body {
 /*==========Page Header styles=======*/
 .page-header{
     border-bottom: 1px solid #e7e9fc;
-    gap: 40px;
 }
 
 .page-header-container {
@@ -65,6 +64,7 @@ body {
     padding-right: 332px;
     column-gap: 40px;
     margin-right: 40px;
+    gap: 40px;
 }
 
 .address {
