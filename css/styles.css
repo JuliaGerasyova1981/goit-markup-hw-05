@@ -46,6 +46,7 @@ body {
 /*==========Page Header styles=======*/
 .page-header{
     border-bottom: 1px solid #e7e9fc;
+    gap: 40px;
 }
 
 .page-header-container {
@@ -202,6 +203,7 @@ body {
         letter-spacing: 0.02em;
         color: #2e2f42;
         line-height: 1.2;
+        margin-bottom: 8px;
        
  }
  .our-goal {
@@ -364,4 +366,6 @@ padding-bottom: 120px;
 .section-two {
     padding: 120px 0;
 }
-
+.menu-item {
+gap: 40px;
+}
