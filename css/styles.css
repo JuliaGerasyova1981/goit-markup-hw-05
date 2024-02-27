@@ -483,10 +483,12 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 16px;
+    display: block;
 }
 
 .footer-logo-text {
     margin-right: 120px;
+ 
 }
 
 .logo-part-footer {
@@ -550,5 +552,6 @@ max-width: 1440px;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+margin: 0 auto;
   
 }
